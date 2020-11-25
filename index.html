@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <header>
+      <div class='header-logo-box'>
+        <a href="#home"><i class="fab fa-airbnb"></i><p>Airbnb</p></a>
+      </div>
+      <div class='header-menu'>
+        <div class'become-host'>
+          <a href="#host-signup">Become a host</a>
+        </div>
+        <div class='globe-div'>
+          <i class="fas fa-globe"></i>
+        </div>
+        <div class='hamburger-n-usercircle-box'>
+          <i class="fas fa-bars"></i>
+          <i class="fas fa-user-circle"></i>
+        </div>
+      </div>
+    </header>
+
+    <hero>
+
+      <nav class='hero-navagation-links'>
+        <a href="#site-place">Places to stay</a>
+        <a href="#site-place">Experiences</a>
+        <a href="#site-place">Online Experiences</a>
+      </nav>
+
+      <form class='hero-search-bar'>
+
+        <div class='form search-location-box'>
+          <label for="location-search">Location</label><br>
+          <input type="text" id='location-search' placeholder="Where are you going?">
+        </div>
+
+        <div class='form check-in-box'>
+          <label for="check-in-dates">Check in</label><br>
+          <input type="date" name='check-in-dates'>
+        </div>
+
+        <div class='form check-out-box'>
+          <label for="check-out-dates">Check out</label><br>
+          <input type="date" name='check-out-dates'>
+        </div>
+
+        <div class='form add-guests-box'>
+            <label for="guests">Guests</label><br>
+            <input type="number" name='guests' min="1" placeholder="How many guests?">
+        </div>
+
+        <button class='search-icon-button'>
+          <i class="fas fa-search"></i>
+        </button>
+
+      </form>
+
+    </hero>
+
+    <section class='rest-of-page'>
+
+        <div class='go-near-box'>
+          <h1>Go<br>Near</h1>
+          <button class='go-near-button'>
+            <p>Explore nearby stays</p>
+          </button>
+        </div>
+        
+    </section>
+
+  </body>
+</html>
